@@ -23,6 +23,7 @@
 #include "cvsba.h"
 #include "readparams.h"
 #include <limits>
+#include <opencv2/highgui/highgui_c.h>
 
 
 void readDataCVFormat(char* camfile, char* ptsfile, std::vector<cv::Point3f>& points, std::vector<std::vector<cv::Point2f> >& imagePoints,
